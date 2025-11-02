@@ -12,12 +12,12 @@ class Light
 {
     public void TurnOn()
     {
-        Console.WriteLine("💡 The light is ON.");
+        Console.WriteLine("The light is ON.");
     }
 
     public void TurnOff()
     {
-        Console.WriteLine("💡 The light is OFF.");
+        Console.WriteLine("The light is OFF.");
     }
 }
 
@@ -74,13 +74,13 @@ class RemoteControl
 
     public void PressButton()
     {
-        Console.WriteLine("🔘 Pressing button...");
+        Console.WriteLine("Pressing button...");
         _command.Execute();
     }
 
     public void PressUndo()
     {
-        Console.WriteLine("↩️ Undoing last command...");
+        Console.WriteLine("Undoing last command...");
         _command.Undo();
     }
 }
